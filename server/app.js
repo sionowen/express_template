@@ -2,6 +2,9 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var path = require('path');
+var pg = require('pg');
+// var connectionString = 'postgres://localhost:5432/mu';
+// fill in connection string
 
 
 app.set('port', (process.env.PORT || 5000));
